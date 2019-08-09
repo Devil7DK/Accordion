@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accordion", "Accordion.csproj", "{82123C26-FFD4-455D-B5D9-78E72F465961}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accordion_4.0", "4.0\Accordion_4.0.csproj", "{82123C26-FFD4-455D-B5D9-78E72F465961}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
