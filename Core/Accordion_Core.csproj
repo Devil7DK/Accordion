@@ -26,7 +26,14 @@
     <!-- Don't append "netcoreapp3.0" folder to Output path-->
     <AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
 	</PropertyGroup>
-  
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\Bin\Debug\Core\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\Bin\Release\Core\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="..\Source\Automation\Peers\AccordionAutomationPeer.cs">
       <Link>Automation\Peers\AccordionAutomationPeer.cs</Link>
